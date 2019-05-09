@@ -16,7 +16,7 @@ public class controler : MonoBehaviour
     {
         Debug.Log(Input.GetAxis("Horizontal"));
         vect = transform.position;
-        vect.x = (Input.GetAxis("Horizontal")*8f);
+        vect.x = (Input.GetAxis("Horizontal"));
         transform.position = vect; 
 
     }
